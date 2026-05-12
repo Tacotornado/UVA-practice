@@ -11,7 +11,7 @@ Considerthefollowingalgorithm:
 6. GOTO2
 
 '''
-mem = {1:1}
+mem = {1:1} # this is a dict
 
 def algo(n):
     N = n
