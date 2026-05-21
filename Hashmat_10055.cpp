@@ -14,6 +14,25 @@
 
 */
 
+// #include <iostream>
+// #include <stdlib.h>
+
+// using namespace std;
+
+// int main()
+// {
+//     long long N, M;
+
+//     while (cin >> N >> M)
+//     {
+//         long long dif = llabs(N - M);
+//         cout << dif << '\n';
+//     };
+//     return 0;
+// }
+
+// improved version //
+
 #include <iostream>
 #include <stdlib.h>
 
@@ -21,12 +40,13 @@ using namespace std;
 
 int main()
 {
+
     long long N, M;
 
     while (cin >> N >> M)
     {
-        long long dif = llabs(N - M);
-        cout << dif << '\n';
-    };
+        cout << llabs(N - M) << '\n';
+    }
+
     return 0;
 }
