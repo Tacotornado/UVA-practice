@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/James/OneDrive/Documents/UVA",
-      "program": "c:/Users/James/OneDrive/Documents/UVA/build/Debug/outDebug",
+      "cwd": "c:/Users/James/OneDrive/Documents/UVA-practice",
+      "program": "c:/Users/James/OneDrive/Documents/UVA-practice/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

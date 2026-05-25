@@ -32,3 +32,18 @@ void digitSum(long long N)
     }
     digitSum(sum);
 }
+
+/*
+    // alt approach using crazy math trick
+
+    #include <iostream>
+    using namespace std;
+
+    int main(){
+    long long N;
+    while(cin >> N && N != 0) {
+        cout << 1 + ((N - 1) % 9) << '\n';
+    }
+    return 0;
+    }
+*/
